@@ -1,0 +1,281 @@
+body{
+	margin: auto;
+	padding: auto;
+	background-color: black;
+}
+.extrabody{
+	width: 80%;
+	height: 3430px;
+	border-style: none;
+	background-color: #FB8900;
+	margin: auto;
+	margin-top: 20px;
+	
+}
+.navbar ul{
+	width: 99%;
+	margin:auto;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+ .navbar li a:hover {
+  background-color: #FB8900;
+  color: #030132;
+}
+.mobileTrace a{
+	font-family: Berlin Sans FB;
+	color: lime !important;
+}
+.mobileTrace a:hover{
+	background-color: #333 !important;
+}
+.navbar .search{
+	margin-top: 5px;
+	
+}
+.navbar .searchform{
+	width: 200px;
+	margin-left: 30px;
+}
+.searchButton{
+	margin-left: 5px;
+}
+
+
+
+
+/*Carousel Start */
+.carousel{
+	width: 90%;
+	height: 150px !important;
+	margin-top: 20px;
+}
+.carousel img{
+	width: 40% !important;
+	height: 150px !important;
+	margin: auto;
+}
+/*Carousel End */
+
+
+
+
+
+/*Sidebar Start */
+
+.CustomSearch{
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+.CustomSearch th{
+	background-color: #F6F941; 
+}
+.CustomSearch input{
+	width: 100%;
+}
+
+.brandName{
+	border-collapse: collapse;
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #333;
+
+}
+.brandName th{
+	color: #030132;
+	text-align: center;
+	background-color: #F6F941;
+}
+.brandName td a{
+	text-decoration: none; 
+	color: white;
+	padding-left: 5px;
+}
+.brandName td:hover{
+	background-color: #FB8900;
+
+}
+
+/*SideBar End */
+
+
+nav .breadcrumb{
+	width: 98%;
+	height: 50px;
+	margin-top: 20px;
+}
+
+.mobileView{
+	border-collapse: collapse;
+	width: 95%;
+	margin-top: 17px;
+}
+.mobileView td{
+	text-align: center;
+	color: #081654;
+	background-color: white;
+}
+.mobilePhoto{
+	height: 180px;
+	text-align: center;
+}
+.mobilePhoto img{
+	height: 180px;
+	width: 160px;
+}
+.mobilePhoto img:hover{
+	transform: scale(1.4);
+	transition: 1s;
+}
+
+/*View Details Button Start*/
+.viewDetails{
+   width: 100%;
+   height: 40px;
+   border-style: none;
+   border-color: none;
+   background-color: #333;
+   color: white;
+}
+.viewDetails:hover{
+	background-color: #4157F5;
+}
+.viewDetails a{
+	color: white;
+}
+.viewDetails a:hover{
+	text-decoration: none;
+}
+/*View Details Button End*/
+
+.content{
+	width: 99%;
+	height: 2800px;
+	border-style: none;
+	border-color: none;
+}
+
+/*Mobile Details Start */
+.mobileDetailsTable{
+   width: 60%;
+   height: 400px;
+   border-style: none;
+   border-color: none;
+   background-color: #333;
+   color: white;
+   margin-left: 15px;
+}
+.mobileDetailsTable td{
+	text-align: center;
+}
+.mobileDetails img{
+    width: 100%;
+    height: 400px;
+}
+.mobileDetails img:hover{
+	transform: scale(1.4);
+	transition: 1s;
+}
+.specification{
+	margin-top: 22px;
+	width: 60%;
+	margin-left: 15px;
+	background-color: #333;
+	color: white;
+}
+.specification th{
+	text-align: center;
+	background-color: #0E2EBE;
+}
+.note{
+	margin-top: 30px;
+	width: 90%;
+	margin-left: 15px;
+	background-color: white;
+	color: red;
+}
+.note th{
+	color: white;
+	text-align: center;
+	background-color: #0E2EBE;
+}
+/*Mobile Details End */
+
+
+/*Brand Logo Page Start*/
+.brandlogo{
+	width: 95%;
+	height: 100px;
+	margin-top: 10px;
+
+}
+.brandlogo img{
+	width: 95%;
+	height: 80px;
+}
+.brandlogo img:hover{
+	transform: scale(1.1);
+	transition: 1s;
+	box-shadow:15px 5px 10px 0px ;
+}
+.brandlogo{
+	background-color: #BEF3E4;
+}
+.brandlogo td{
+    text-align: center;
+}
+.brandlogo a:hover{
+	text-decoration: none;
+
+}
+
+/*Brand Logo Page End */
+
+/*Footer Start */
+.footer{
+	width: 95%;
+	height: 300px;
+	background-color: #333;
+	margin:auto;
+	margin-top: 250px;
+}
+.footer h2{
+	color: white;
+	text-align: center;
+	font-family: Berlin Sans FB;
+	font-size: 25px;
+}
+.footer p{
+	color: white;
+	text-align: justify;
+	text-align: center;
+}
+.icon a i:hover{
+	color: #FB8900;
+}
+.extrafooter{
+	margin: auto;
+}
+
+/*Footer End */
